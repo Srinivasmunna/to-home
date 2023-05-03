@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 130vh;
+    width: 100vw;
+   background-color: #fefee2;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content{
+    font-size: 30px;
+    margin-top:0%;
+    position: absolute;
+    margin-left: 30%;
+}

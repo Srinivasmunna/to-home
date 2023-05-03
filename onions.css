@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+   background-color: #fefee2;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.img{
+    margin-top: 8%;
+    height: 35%;
+}
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(21, 104, 21, 0.658);
+    padding: 10px;
+    text-align: center;
+    background-color: #92e37c;
+    width:100%;
+    margin:30%;
+  }
+  .price{
+    font-size: 20px;
+    padding: 20px;
+    height: 25vh;
+    width: 35vw;
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #225016;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid gray;
+  }
+  .price:hover{
+    box-shadow: 0px 5px 5px 5px rgb(88, 88, 93);
+  }
+  .kgs{
+    height: 25px;
+    border-radius: 5px;
+    border: 0.5pox solid gray;
+    background: #fff;
+
+
+}
+  .cart{
+
+    padding: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    
+    left: 25px;
+    background: #225016;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+   
+  .cart:hover{
+    border: 1px solid rgb(49, 47, 47);
+    background: #fff;
+    color: #225016;
+  }
+
+  .buy{
+    padding: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    
+    left: 180px;
+    background: #225016;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .buy:hover{
+    border: 1px solid rgb(49, 47, 47);
+    background: #fff;
+    color: #225016;
+  }

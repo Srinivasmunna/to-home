@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+   background-color: #fefee2;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.column {
+    margin-top: 10%;
+    float: left;
+    width: 18%;
+    padding: 0 20px;
+    height:15%;
+  }
+  
+
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(21, 104, 21, 0.658);
+    padding: 10px;
+    text-align: center;
+    background-color: #92e37c;
+    width:90%;
+    margin:30%;
+  }
+  

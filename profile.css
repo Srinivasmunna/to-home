@@ -1,0 +1,21 @@
+body{margin-top:20px;}
+.avatar{
+width:200px;
+height:200px;
+}		
+.col-md-9 personal-info{
+    text-align: center;
+
+}		
+div {
+    display: block;
+    text-align: center;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+body{
+    background-color: #fefee2;
+}
